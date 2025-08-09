@@ -1,0 +1,90 @@
+
+
+.abbie-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: repeating-radial-gradient(circle at 20% 30%, #a259c6 0px, #6d28d9 100px, #a259c6 200px);
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Fredoka', 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+}
+
+.abbie-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+.abbie-header h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 8px #6d28d9, 0 0 10px #ff9800;
+}
+
+
+.abbie-subtitle {
+  font-size: 1.5rem;
+  color: #ffb74d;
+  margin-top: 0.5rem;
+}
+
+.abbie-intro {
+  background: rgba(255,255,255,0.1);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.abbie-intro h2 {
+  color: #ff9800;
+}
+
+.abbie-recipes {
+  background: rgba(255,255,255,0.15);
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+
+.abbie-recipes h2 {
+  color: #ff9800;
+  margin-bottom: 1rem;
+}
+
+.recipe-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+
+.recipe-card {
+  background: #ff9800;
+  color: #fff;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(109,40,217,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  border: 2px solid #fff;
+  text-shadow: 0 2px 8px #000, 0 0 2px #fff;
+}
+.recipe-card a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 2px 8px #000, 0 0 2px #fff;
+}
+.recipe-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(255,152,0,0.3);
+  background: #fb8c00;
+}
