@@ -58,6 +58,38 @@ function App() {
               </>
             }
           />
+          <Route
+            path="/"
+            element={
+              <>
+                <section className="abbie-intro">
+                  <h2>Welcome!</h2>
+                  <p>
+                    Discover easy, delicious, and fun recipes you can make at home. Whether you're just starting out or already a kitchen pro, there's something here for everyone!
+                  </p>
+                </section>
+                <section className="abbie-recipes">
+                  <h2>Featured Recipes</h2>
+                  <ul className="recipe-list">
+                    <li className="recipe-card"><Link to="/cook/banana-pancakes">Banana Pancakes</Link></li>
+                    <li className="recipe-card"><Link to="/cook/yogurt-parfait">Yogurt Parfait</Link></li>
+                    <li className="recipe-card"><Link to="/cook/scrambled-eggs-wrap">Scrambled Eggs Wrap</Link></li>
+                    <li className="recipe-card"><Link to="/cook/grilled-cheese-sandwich">Grilled Cheese Sandwich</Link></li>
+                    <li className="recipe-card"><Link to="/cook/veggie-quesadilla">Veggie Quesadilla</Link></li>
+                    <li className="recipe-card"><Link to="/cook/chicken-salad-pita">Chicken Salad Pita</Link></li>
+                    <li className="recipe-card"><Link to="/cook/spaghetti-tomato-sauce">Spaghetti with Tomato Sauce</Link></li>
+                    <li className="recipe-card"><Link to="/cook/easy-stir-fry">Easy Stir-Fry</Link></li>
+                    <li className="recipe-card"><Link to="/cook/cheesy-baked-potatoes">Cheesy Baked Potatoes</Link></li>
+                    <li className="recipe-card"><Link to="/cook/fruit-kabobs">Fruit Kabobs</Link></li>
+                    <li className="recipe-card"><Link to="/cook/trail-mix">Trail Mix</Link></li>
+                    <li className="recipe-card"><Link to="/cook/apple-nachos">Apple Nachos</Link></li>
+                    <li className="recipe-card"><Link to="/cook/no-bake-chocolate-cookies">No-Bake Chocolate Cookies</Link></li>
+                    <li className="recipe-card"><Link to="/cook/rainbow-veggie-wraps">Rainbow Veggie Wraps</Link></li>
+                  </ul>
+                </section>
+              </>
+            }
+          />
           <Route path="/cook/banana-pancakes" element={<BananaPancakes />} />
           <Route path="/cook/yogurt-parfait" element={<YogurtParfait />} />
           <Route path="/cook/scrambled-eggs-wrap" element={<ScrambledEggsWrap />} />
