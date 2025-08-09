@@ -42,9 +42,11 @@
 }
 
 .abbie-recipes {
-  background: rgba(255,255,255,0.15);
-  border-radius: 16px;
-  padding: 1.5rem;
+  background: rgba(255,255,255,0.25);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 4px 24px rgba(109,40,217,0.15);
+  margin-bottom: 2rem;
 }
 
 
@@ -56,10 +58,16 @@
 .recipe-list {
   list-style: none;
   padding: 0;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: center;
+  border: 2px solid #fff;
+  background: rgba(255,255,255,0.1);
+  border-radius: 16px;
+  max-width: 900px;
+  min-height: 100px;
 }
 
 
@@ -67,15 +75,17 @@
 .recipe-card {
   background: #ff9800;
   color: #fff;
-  border-radius: 12px;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
+  border-radius: 16px;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  box-shadow: 0 2px 8px rgba(109,40,217,0.2);
+  margin: 0.5rem;
+  box-shadow: 0 4px 16px rgba(109,40,217,0.3), 0 0 0 4px #fff;
   transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   text-shadow: 0 2px 8px #000, 0 0 2px #fff;
+  display: inline-block;
 }
 .recipe-card a {
   color: #fff;

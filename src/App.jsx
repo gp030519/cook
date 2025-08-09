@@ -27,7 +27,7 @@ function App() {
       <main>
         <Routes>
           <Route
-            path="/"
+            path="/cook/"
             element={
               <>
                 <section className="abbie-intro">
