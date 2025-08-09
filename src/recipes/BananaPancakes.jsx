@@ -8,7 +8,7 @@ export default function BananaPancakes() {
       <h3>Ingredients</h3>
       <ul>
         <li>1 ripe banana</li>
-        <li>1 cup pancake mix</li>
+        <li>1 cup self raising flour</li>
         <li>3/4 cup milk</li>
         <li>1 egg</li>
       </ul>
