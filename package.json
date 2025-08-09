@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gp030519.github.io/abbiewebsite",
+  "homepage": "https://gp030519.github.io/cook",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
