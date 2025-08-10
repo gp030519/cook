@@ -40,6 +40,8 @@ function App() {
                   <h2>Featured Recipes</h2>
                   <ul className="recipe-list">
                     <li className="recipe-card"><Link to="/cook/banana-pancakes">Banana Pancakes</Link></li>
+                    <li className="recipe-card"><Link to="/cook/french-toast">French Toast</Link></li>
+import FrenchToast from './recipes/FrenchToast';
                     <li className="recipe-card"><Link to="/cook/yogurt-parfait">Yogurt Parfait</Link></li>
                     <li className="recipe-card"><Link to="/cook/scrambled-eggs-wrap">Scrambled Eggs Wrap</Link></li>
                     <li className="recipe-card"><Link to="/cook/grilled-cheese-sandwich">Grilled Cheese Sandwich</Link></li>
@@ -59,6 +61,7 @@ function App() {
             }
           />
           <Route path="/cook/banana-pancakes" element={<BananaPancakes />} />
+          <Route path="/cook/french-toast" element={<FrenchToast />} />
           <Route path="/cook/yogurt-parfait" element={<YogurtParfait />} />
           <Route path="/cook/scrambled-eggs-wrap" element={<ScrambledEggsWrap />} />
           <Route path="/cook/grilled-cheese-sandwich" element={<GrilledCheeseSandwich />} />
