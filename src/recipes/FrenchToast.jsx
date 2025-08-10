@@ -4,7 +4,7 @@ export default function FrenchToast() {
   return (
     <div className="recipe-detail">
       <h2>French Toast</h2>
-      <img src="/french_toast.jpg" alt="French Toast" style={{width: '100%', maxWidth: '400px', borderRadius: '16px', marginBottom: '1rem'}} />
+      <img src="/cook/french_toast.jpg" alt="French Toast" style={{width: '100%', maxWidth: '400px', borderRadius: '16px', marginBottom: '1rem'}} />
       <p>Classic French toast—crispy outside, soft inside, and delicious for breakfast!</p>
       <h3>Ingredients</h3>
       <ul>
