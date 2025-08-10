@@ -16,6 +16,7 @@ import TrailMix from './recipes/TrailMix';
 import AppleNachos from './recipes/AppleNachos';
 import NoBakeChocolateCookies from './recipes/NoBakeChocolateCookies';
 import RainbowVeggieWraps from './recipes/RainbowVeggieWraps';
+import FrenchToast from './recipes/FrenchToast';
 
 function App() {
   return (
@@ -41,7 +42,6 @@ function App() {
                   <ul className="recipe-list">
                     <li className="recipe-card"><Link to="/cook/banana-pancakes">Banana Pancakes</Link></li>
                     <li className="recipe-card"><Link to="/cook/french-toast">French Toast</Link></li>
-import FrenchToast from './recipes/FrenchToast';
                     <li className="recipe-card"><Link to="/cook/yogurt-parfait">Yogurt Parfait</Link></li>
                     <li className="recipe-card"><Link to="/cook/scrambled-eggs-wrap">Scrambled Eggs Wrap</Link></li>
                     <li className="recipe-card"><Link to="/cook/grilled-cheese-sandwich">Grilled Cheese Sandwich</Link></li>
